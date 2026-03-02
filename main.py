@@ -129,7 +129,7 @@ for i in range(n):
     y.append((i + 1) / n)
 
 plt.figure(figsize=(11, 7))
-plt.step(x_sorted, y, where='post', color='blue', linewidth=2, label='ЭФР $\hat{F}_n(x)$')
+plt.step(x_sorted, y, where='post', color='blue', linewidth=2, label='ЭФР $\\hat{F}_n(x)$')
 plt.plot(x_sorted, y, 'o', color='red', markersize=2, label='Точки на горизонтальных участках')
 
 for x_i in x_sorted:
